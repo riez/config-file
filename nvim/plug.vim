@@ -12,7 +12,11 @@ if has("nvim")
    Plug 'nvim-lua/popup.nvim'
    Plug 'nvim-lua/plenary.nvim'
    Plug 'windwp/nvim-autopairs'
+   Plug 'tpope/vim-commentary'
+   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
    " LSP 
+   Plug 'nvim-lua/completion-nvim'
+   Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
    Plug 'neovim/nvim-lspconfig'
 	 Plug 'williamboman/nvim-lsp-installer'
    Plug 'tami5/lspsaga.nvim', { 'branch': 'nvim51' }
@@ -26,6 +30,7 @@ if has("nvim")
    " Syntax Highlighting
    Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
    Plug 'kyazdani42/nvim-web-devicons'
+   Plug 'steelsojka/headwind.nvim'
    " File Browse
    Plug 'kristijanhusak/defx-git'
    Plug 'kristijanhusak/defx-icons'
