@@ -9,8 +9,8 @@ end
 
 currentFileType = vim.api.nvim_buf_get_option(bufnr, "filetype")
 allowedFileTypes = Set{'javascript', 'javascriptreact', 'typescript', 'typescriptreact', 'html', 'css', 'tsx', 'jsx'}
-
+print(currentFileType)
 if allowedFileTypes[currentFileType] then
-  print(currentFileType)
+  print('jancok')
   headwind.setup({})
 end
